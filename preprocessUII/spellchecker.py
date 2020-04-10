@@ -1,10 +1,14 @@
 import re
 from collections import Counter
 import pandas as pd
+import os.path
+
+my_path = os.path.abspath(os.path.dirname(__file__))
+path = os.path.join(my_path, "./data/kata_dasar_kbbi.csv")
 
 def words(text): return re.findall(r'\w+', text.lower())
 
-WORDS = Counter(list(pd.read_csv("data/kata_dasar_kbbi.csv",header=None)[0].values))
+WORDS = Counter(list(pd.read_csv(path,header=None)[0].values))
 
 def P(word, N=sum(WORDS.values())):
     # "Probability of `word`."
