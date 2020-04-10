@@ -4,10 +4,7 @@ import pandas as pd
 
 def words(text): return re.findall(r'\w+', text.lower())
 
-# WORDS = Counter(words(open('katadasar.txt').read()))
-# WORDS = Counter(words(open('idwiki_100k.txt').read()))
-# 116244
-WORDS = Counter(list(pd.read_csv("kata_dasar_kbbi.csv",header=None)[0].values))
+WORDS = Counter(list(pd.read_csv("data/kata_dasar_kbbi.csv",header=None)[0].values))
 
 def P(word, N=sum(WORDS.values())):
     # "Probability of `word`."
@@ -39,6 +36,4 @@ def edits2(word):
     # "All edits that are two edits away from `word`."
     return (e2 for e1 in edits1(word) for e2 in edits1(e1))
 
-# kata = 'mkan'
-# print('kata typo : ', kata)
-# print('koreksi : ', correction(kata))
+
