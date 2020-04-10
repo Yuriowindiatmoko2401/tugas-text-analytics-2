@@ -32,6 +32,7 @@ penjelasan singkat dari notebook pada repositori
     from preprocessUII.spellchecker import correction
     from preprocessUII.preProc_misc import stop_words, removeStopword, koreksi_elongasi
 
+    # menambahkan beberapa stopwords untuk cleansing data id wiki 1000
     stop_words.add('of')
     stop_words.add('the')
     stop_words.add('jpg')
