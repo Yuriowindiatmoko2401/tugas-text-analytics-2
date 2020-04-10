@@ -1,0 +1,322 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>spellchecker module &mdash; preprocessUII beta documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="preProc_misc module" href="preProc_misc.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> preprocessUII
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.0.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="tutorial_singkat.html">Tutorial Singkat</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">preprocessUII</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="cmnRmv.html">cmnRmv module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="preProc_misc.html">preProc_misc module</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">spellchecker module</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="cmnRmv.html">cmnRmv module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="preProc_misc.html">preProc_misc module</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">spellchecker module</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">preprocessUII</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="modules.html">preprocessUII</a> &raquo;</li>
+        
+      <li>spellchecker module</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/spellchecker.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-spellchecker">
+<span id="spellchecker-module"></span><h1>spellchecker module<a class="headerlink" href="#module-spellchecker" title="Permalink to this headline">¶</a></h1>
+<dl class="function">
+<dt id="spellchecker.P">
+<code class="sig-prename descclassname">spellchecker.</code><code class="sig-name descname">P</code><span class="sig-paren">(</span><em class="sig-param">word</em>, <em class="sig-param">N=28526</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/spellchecker.html#P"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spellchecker.P" title="Permalink to this definition">¶</a></dt>
+<dd><p>Probability of <cite>word</cite></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>word</strong> (<em>string</em>) – kata</p></li>
+<li><p><strong>N</strong> (<em>integer</em>) – jumlah n kata, defaults to sum(WORDS.values())</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Probability of word</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="spellchecker.candidates">
+<code class="sig-prename descclassname">spellchecker.</code><code class="sig-name descname">candidates</code><span class="sig-paren">(</span><em class="sig-param">word</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/spellchecker.html#candidates"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spellchecker.candidates" title="Permalink to this definition">¶</a></dt>
+<dd><p>Generate possible spelling corrections for word</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>word</strong> (<em>string</em>) – kata</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>set of candidates words</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>set</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="spellchecker.correction">
+<code class="sig-prename descclassname">spellchecker.</code><code class="sig-name descname">correction</code><span class="sig-paren">(</span><em class="sig-param">word</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/spellchecker.html#correction"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spellchecker.correction" title="Permalink to this definition">¶</a></dt>
+<dd><p>Most probable spelling correction for word
+<cite>flow:</cite>
+<cite>word –&gt;  edits1(word) –&gt; edits2(word) –&gt; known(words) –&gt; candidates(word) –&gt; correction(word) with P as key</cite></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>word</strong> (<em>string</em>) – kata</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>word within maximum Probability</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>string</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="spellchecker.edits1">
+<code class="sig-prename descclassname">spellchecker.</code><code class="sig-name descname">edits1</code><span class="sig-paren">(</span><em class="sig-param">word</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/spellchecker.html#edits1"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spellchecker.edits1" title="Permalink to this definition">¶</a></dt>
+<dd><p>All edits that are one edit away from <cite>word</cite></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>word</strong> (<em>string</em>) – kata</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>all kinds edit that are one edit away from <cite>word</cite></p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>set</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="spellchecker.edits2">
+<code class="sig-prename descclassname">spellchecker.</code><code class="sig-name descname">edits2</code><span class="sig-paren">(</span><em class="sig-param">word</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/spellchecker.html#edits2"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spellchecker.edits2" title="Permalink to this definition">¶</a></dt>
+<dd><p>All edits that are two edits away from <cite>word</cite></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>word</strong> (<em>string</em>) – kata</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>all kinds edit that are twice edit away from <cite>word</cite></p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>set</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="spellchecker.known">
+<code class="sig-prename descclassname">spellchecker.</code><code class="sig-name descname">known</code><span class="sig-paren">(</span><em class="sig-param">words</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/spellchecker.html#known"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spellchecker.known" title="Permalink to this definition">¶</a></dt>
+<dd><p>The subset of <cite>words</cite> that appear in the dictionary of WORDS</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>words</strong> (<em>list</em>) – list of word</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>set of words that appear in the dictionary of WORDS</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>set</p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="preProc_misc.html" class="btn btn-neutral float-left" title="preProc_misc module" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Yurio Windiatmoko
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

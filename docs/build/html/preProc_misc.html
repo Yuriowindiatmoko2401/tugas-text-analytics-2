@@ -1,0 +1,258 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>preProc_misc module &mdash; preprocessUII beta documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="spellchecker module" href="spellchecker.html" />
+    <link rel="prev" title="cmnRmv module" href="cmnRmv.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> preprocessUII
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.0.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="tutorial_singkat.html">Tutorial Singkat</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">preprocessUII</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="cmnRmv.html">cmnRmv module</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">preProc_misc module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="spellchecker.html">spellchecker module</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="cmnRmv.html">cmnRmv module</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">preProc_misc module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="spellchecker.html">spellchecker module</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">preprocessUII</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="modules.html">preprocessUII</a> &raquo;</li>
+        
+      <li>preProc_misc module</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/preProc_misc.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-preProc_misc">
+<span id="preproc-misc-module"></span><h1>preProc_misc module<a class="headerlink" href="#module-preProc_misc" title="Permalink to this headline">¶</a></h1>
+<dl class="function">
+<dt id="preProc_misc.koreksi_elongasi">
+<code class="sig-prename descclassname">preProc_misc.</code><code class="sig-name descname">koreksi_elongasi</code><span class="sig-paren">(</span><em class="sig-param">word, df_crc=              slang     formal category1 0              woww        wow  elongasi 1             aminn       amin  elongasi 5          eeeehhhh         eh  elongasi 7             hallo       halo  elongasi 10             daah        dah  elongasi 11        aaaaahhhh         ah  elongasi 12              yaa         ya  elongasi 15            amiin       amin  elongasi 23            akuuu        aku  elongasi 25              yaa         ya  elongasi 40           idolaa      idola  elongasi 41          bangett     banget  elongasi 42            kaakk        kak  elongasi 43         baaiikkk       baik  elongasi 44          telaatt      telat  elongasi 45             kaak        kak  elongasi 55           loohhh        loh  elongasi 56             yeee         ya  elongasi 57        baguuuuus      bagus  elongasi 64            awaas       awas  elongasi 65             siip        sip  elongasi 66          abizzzz      habis  elongasi 67      kerrrrennnn      keren  elongasi 68            sayaa       saya  elongasi 86     kereeeeennnn      keren  elongasi 90           siippp        sip  elongasi 93         bangettt     banget  elongasi 94          kereeen      keren  elongasi 95         wihhhhhh        wih  elongasi 101           kaloo       kalo  elongasi ...             ...        ...       ... 14832          woow        wow  elongasi 14842           yaa         ya  elongasi 14848       itumahh     itumah  elongasi 14849         muuuu         mu  elongasi 14850          yuuk        yuk  elongasi 14851         uuhhh         uh  elongasi 14861          tehh        teh  elongasi 14864          yaaa         ya  elongasi 14867        amiien      amien  elongasi 14876           yaa         ya  elongasi 14878     semuanyaa   semuanya  elongasi 14885   semuannyaaa   semuanya  elongasi 14886        aminn2  amin-amin  elongasi 14887        aamiin       amin  elongasi 14906       mantapp     mantap  elongasi 14910        aduuuh       aduh  elongasi 14911        cakeep      cakep  elongasi 14912         lucuu       lucu  elongasi 14915     cantiiikk     cantik  elongasi 14916        nyaaaa        nya  elongasi 14919        gituuu     begitu  elongasi 14921       kamuuuu       kamu  elongasi 14931          waah        wah  elongasi 14936        kerass      keras  elongasi 14950        aamien      amien  elongasi 14961      wowoooww        wow  elongasi 14983    kereeennnn      keren  elongasi 14987       gilakkk       gila  elongasi 14990          kakk        kak  elongasi 15006       horeeee       hore  elongasi  [1907 rows x 3 columns]</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/preProc_misc.html#koreksi_elongasi"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#preProc_misc.koreksi_elongasi" title="Permalink to this definition">¶</a></dt>
+<dd><p>koreksi elongasi sebagai tahapan normalisasi text</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>word</strong> (<em>string</em>) – kata yang akan di normalize</p></li>
+<li><p><strong>df_crc</strong> (<em>dataframe pandas</em><em>, </em><em>optional</em>) – dataframe correction for normalize, defaults to df_crc</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>normalized text after mapping</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>string</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="preProc_misc.removeStopword">
+<code class="sig-prename descclassname">preProc_misc.</code><code class="sig-name descname">removeStopword</code><span class="sig-paren">(</span><em class="sig-param">text</em>, <em class="sig-param">stop_words={'ada'</em>, <em class="sig-param">'adalah'</em>, <em class="sig-param">'adanya'</em>, <em class="sig-param">'adapun'</em>, <em class="sig-param">'agak'</em>, <em class="sig-param">'agaknya'</em>, <em class="sig-param">'agar'</em>, <em class="sig-param">'akan'</em>, <em class="sig-param">'akankah'</em>, <em class="sig-param">'akhir'</em>, <em class="sig-param">'akhiri'</em>, <em class="sig-param">'akhirnya'</em>, <em class="sig-param">'aku'</em>, <em class="sig-param">'akulah'</em>, <em class="sig-param">'amat'</em>, <em class="sig-param">'amatlah'</em>, <em class="sig-param">'anda'</em>, <em class="sig-param">'andalah'</em>, <em class="sig-param">'antar'</em>, <em class="sig-param">'antara'</em>, <em class="sig-param">'antaranya'</em>, <em class="sig-param">'apa'</em>, <em class="sig-param">'apaan'</em>, <em class="sig-param">'apabila'</em>, <em class="sig-param">'apakah'</em>, <em class="sig-param">'apalagi'</em>, <em class="sig-param">'apatah'</em>, <em class="sig-param">'artinya'</em>, <em class="sig-param">'asal'</em>, <em class="sig-param">'asalkan'</em>, <em class="sig-param">'atas'</em>, <em class="sig-param">'atau'</em>, <em class="sig-param">'ataukah'</em>, <em class="sig-param">'ataupun'</em>, <em class="sig-param">'awal'</em>, <em class="sig-param">'awalnya'</em>, <em class="sig-param">'bagai'</em>, <em class="sig-param">'bagaikan'</em>, <em class="sig-param">'bagaimana'</em>, <em class="sig-param">'bagaimanakah'</em>, <em class="sig-param">'bagaimanapun'</em>, <em class="sig-param">'bagi'</em>, <em class="sig-param">'bagian'</em>, <em class="sig-param">'bahkan'</em>, <em class="sig-param">'bahwa'</em>, <em class="sig-param">'bahwasanya'</em>, <em class="sig-param">'baik'</em>, <em class="sig-param">'bakal'</em>, <em class="sig-param">'bakalan'</em>, <em class="sig-param">'balik'</em>, <em class="sig-param">'banyak'</em>, <em class="sig-param">'bapak'</em>, <em class="sig-param">'baru'</em>, <em class="sig-param">'bawah'</em>, <em class="sig-param">'beberapa'</em>, <em class="sig-param">'begini'</em>, <em class="sig-param">'beginian'</em>, <em class="sig-param">'beginikah'</em>, <em class="sig-param">'beginilah'</em>, <em class="sig-param">'begitu'</em>, <em class="sig-param">'begitukah'</em>, <em class="sig-param">'begitulah'</em>, <em class="sig-param">'begitupun'</em>, <em class="sig-param">'bekerja'</em>, <em class="sig-param">'belakang'</em>, <em class="sig-param">'belakangan'</em>, <em class="sig-param">'belum'</em>, <em class="sig-param">'belumlah'</em>, <em class="sig-param">'benar'</em>, <em class="sig-param">'benarkah'</em>, <em class="sig-param">'benarlah'</em>, <em class="sig-param">'berada'</em>, <em class="sig-param">'berakhir'</em>, <em class="sig-param">'berakhirlah'</em>, <em class="sig-param">'berakhirnya'</em>, <em class="sig-param">'berapa'</em>, <em class="sig-param">'berapakah'</em>, <em class="sig-param">'berapalah'</em>, <em class="sig-param">'berapapun'</em>, <em class="sig-param">'berarti'</em>, <em class="sig-param">'berawal'</em>, <em class="sig-param">'berbagai'</em>, <em class="sig-param">'berdatangan'</em>, <em class="sig-param">'beri'</em>, <em class="sig-param">'berikan'</em>, <em class="sig-param">'berikut'</em>, <em class="sig-param">'berikutnya'</em>, <em class="sig-param">'berjumlah'</em>, <em class="sig-param">'berkali-kali'</em>, <em class="sig-param">'berkata'</em>, <em class="sig-param">'berkehendak'</em>, <em class="sig-param">'berkeinginan'</em>, <em class="sig-param">'berkenaan'</em>, <em class="sig-param">'berlainan'</em>, <em class="sig-param">'berlalu'</em>, <em class="sig-param">'berlangsung'</em>, <em class="sig-param">'berlebihan'</em>, <em class="sig-param">'bermacam'</em>, <em class="sig-param">'bermacam-macam'</em>, <em class="sig-param">'bermaksud'</em>, <em class="sig-param">'bermula'</em>, <em class="sig-param">'bersama'</em>, <em class="sig-param">'bersama-sama'</em>, <em class="sig-param">'bersiap'</em>, <em class="sig-param">'bersiap-siap'</em>, <em class="sig-param">'bertanya'</em>, <em class="sig-param">'bertanya-tanya'</em>, <em class="sig-param">'berturut'</em>, <em class="sig-param">'berturut-turut'</em>, <em class="sig-param">'bertutur'</em>, <em class="sig-param">'berujar'</em>, <em class="sig-param">'berupa'</em>, <em class="sig-param">'besar'</em>, <em class="sig-param">'betul'</em>, <em class="sig-param">'betulkah'</em>, <em class="sig-param">'biasa'</em>, <em class="sig-param">'biasanya'</em>, <em class="sig-param">'bila'</em>, <em class="sig-param">'bilakah'</em>, <em class="sig-param">'bisa'</em>, <em class="sig-param">'bisakah'</em>, <em class="sig-param">'boleh'</em>, <em class="sig-param">'bolehkah'</em>, <em class="sig-param">'bolehlah'</em>, <em class="sig-param">'buat'</em>, <em class="sig-param">'bukan'</em>, <em class="sig-param">'bukankah'</em>, <em class="sig-param">'bukanlah'</em>, <em class="sig-param">'bukannya'</em>, <em class="sig-param">'bulan'</em>, <em class="sig-param">'bung'</em>, <em class="sig-param">'cara'</em>, <em class="sig-param">'caranya'</em>, <em class="sig-param">'cukup'</em>, <em class="sig-param">'cukupkah'</em>, <em class="sig-param">'cukuplah'</em>, <em class="sig-param">'cuma'</em>, <em class="sig-param">'dahulu'</em>, <em class="sig-param">'dalam'</em>, <em class="sig-param">'dan'</em>, <em class="sig-param">'dapat'</em>, <em class="sig-param">'dari'</em>, <em class="sig-param">'daripada'</em>, <em class="sig-param">'datang'</em>, <em class="sig-param">'dekat'</em>, <em class="sig-param">'demi'</em>, <em class="sig-param">'demikian'</em>, <em class="sig-param">'demikianlah'</em>, <em class="sig-param">'dengan'</em>, <em class="sig-param">'depan'</em>, <em class="sig-param">'di'</em>, <em class="sig-param">'dia'</em>, <em class="sig-param">'diakhiri'</em>, <em class="sig-param">'diakhirinya'</em>, <em class="sig-param">'dialah'</em>, <em class="sig-param">'diantara'</em>, <em class="sig-param">'diantaranya'</em>, <em class="sig-param">'diberi'</em>, <em class="sig-param">'diberikan'</em>, <em class="sig-param">'diberikannya'</em>, <em class="sig-param">'dibuat'</em>, <em class="sig-param">'dibuatnya'</em>, <em class="sig-param">'didapat'</em>, <em class="sig-param">'didatangkan'</em>, <em class="sig-param">'digunakan'</em>, <em class="sig-param">'diibaratkan'</em>, <em class="sig-param">'diibaratkannya'</em>, <em class="sig-param">'diingat'</em>, <em class="sig-param">'diingatkan'</em>, <em class="sig-param">'diinginkan'</em>, <em class="sig-param">'dijawab'</em>, <em class="sig-param">'dijelaskan'</em>, <em class="sig-param">'dijelaskannya'</em>, <em class="sig-param">'dikarenakan'</em>, <em class="sig-param">'dikatakan'</em>, <em class="sig-param">'dikatakannya'</em>, <em class="sig-param">'dikerjakan'</em>, <em class="sig-param">'diketahui'</em>, <em class="sig-param">'diketahuinya'</em>, <em class="sig-param">'dikira'</em>, <em class="sig-param">'dilakukan'</em>, <em class="sig-param">'dilalui'</em>, <em class="sig-param">'dilihat'</em>, <em class="sig-param">'dimaksud'</em>, <em class="sig-param">'dimaksudkan'</em>, <em class="sig-param">'dimaksudkannya'</em>, <em class="sig-param">'dimaksudnya'</em>, <em class="sig-param">'diminta'</em>, <em class="sig-param">'dimintai'</em>, <em class="sig-param">'dimisalkan'</em>, <em class="sig-param">'dimulai'</em>, <em class="sig-param">'dimulailah'</em>, <em class="sig-param">'dimulainya'</em>, <em class="sig-param">'dimungkinkan'</em>, <em class="sig-param">'dini'</em>, <em class="sig-param">'dipastikan'</em>, <em class="sig-param">'diperbuat'</em>, <em class="sig-param">'diperbuatnya'</em>, <em class="sig-param">'dipergunakan'</em>, <em class="sig-param">'diperkirakan'</em>, <em class="sig-param">'diperlihatkan'</em>, <em class="sig-param">'diperlukan'</em>, <em class="sig-param">'diperlukannya'</em>, <em class="sig-param">'dipersoalkan'</em>, <em class="sig-param">'dipertanyakan'</em>, <em class="sig-param">'dipunyai'</em>, <em class="sig-param">'diri'</em>, <em class="sig-param">'dirinya'</em>, <em class="sig-param">'disampaikan'</em>, <em class="sig-param">'disebut'</em>, <em class="sig-param">'disebutkan'</em>, <em class="sig-param">'disebutkannya'</em>, <em class="sig-param">'disini'</em>, <em class="sig-param">'disinilah'</em>, <em class="sig-param">'ditambahkan'</em>, <em class="sig-param">'ditandaskan'</em>, <em class="sig-param">'ditanya'</em>, <em class="sig-param">'ditanyai'</em>, <em class="sig-param">'ditanyakan'</em>, <em class="sig-param">'ditegaskan'</em>, <em class="sig-param">'ditujukan'</em>, <em class="sig-param">'ditunjuk'</em>, <em class="sig-param">'ditunjuki'</em>, <em class="sig-param">'ditunjukkan'</em>, <em class="sig-param">'ditunjukkannya'</em>, <em class="sig-param">'ditunjuknya'</em>, <em class="sig-param">'dituturkan'</em>, <em class="sig-param">'dituturkannya'</em>, <em class="sig-param">'diucapkan'</em>, <em class="sig-param">'diucapkannya'</em>, <em class="sig-param">'diungkapkan'</em>, <em class="sig-param">'dong'</em>, <em class="sig-param">'dua'</em>, <em class="sig-param">'dulu'</em>, <em class="sig-param">'empat'</em>, <em class="sig-param">'enggak'</em>, <em class="sig-param">'enggaknya'</em>, <em class="sig-param">'entah'</em>, <em class="sig-param">'entahlah'</em>, <em class="sig-param">'guna'</em>, <em class="sig-param">'gunakan'</em>, <em class="sig-param">'hal'</em>, <em class="sig-param">'hampir'</em>, <em class="sig-param">'hanya'</em>, <em class="sig-param">'hanyalah'</em>, <em class="sig-param">'hari'</em>, <em class="sig-param">'harus'</em>, <em class="sig-param">'haruslah'</em>, <em class="sig-param">'harusnya'</em>, <em class="sig-param">'hendak'</em>, <em class="sig-param">'hendaklah'</em>, <em class="sig-param">'hendaknya'</em>, <em class="sig-param">'hingga'</em>, <em class="sig-param">'ia'</em>, <em class="sig-param">'ialah'</em>, <em class="sig-param">'ibarat'</em>, <em class="sig-param">'ibaratkan'</em>, <em class="sig-param">'ibaratnya'</em>, <em class="sig-param">'ibu'</em>, <em class="sig-param">'ikut'</em>, <em class="sig-param">'ingat'</em>, <em class="sig-param">'ingat-ingat'</em>, <em class="sig-param">'ingin'</em>, <em class="sig-param">'inginkah'</em>, <em class="sig-param">'inginkan'</em>, <em class="sig-param">'ini'</em>, <em class="sig-param">'inikah'</em>, <em class="sig-param">'inilah'</em>, <em class="sig-param">'itu'</em>, <em class="sig-param">'itukah'</em>, <em class="sig-param">'itulah'</em>, <em class="sig-param">'jadi'</em>, <em class="sig-param">'jadilah'</em>, <em class="sig-param">'jadinya'</em>, <em class="sig-param">'jangan'</em>, <em class="sig-param">'jangankan'</em>, <em class="sig-param">'janganlah'</em>, <em class="sig-param">'jauh'</em>, <em class="sig-param">'jawab'</em>, <em class="sig-param">'jawaban'</em>, <em class="sig-param">'jawabnya'</em>, <em class="sig-param">'jelas'</em>, <em class="sig-param">'jelaskan'</em>, <em class="sig-param">'jelaslah'</em>, <em class="sig-param">'jelasnya'</em>, <em class="sig-param">'jika'</em>, <em class="sig-param">'jikalau'</em>, <em class="sig-param">'juga'</em>, <em class="sig-param">'jumlah'</em>, <em class="sig-param">'jumlahnya'</em>, <em class="sig-param">'justru'</em>, <em class="sig-param">'kala'</em>, <em class="sig-param">'kalau'</em>, <em class="sig-param">'kalaulah'</em>, <em class="sig-param">'kalaupun'</em>, <em class="sig-param">'kalian'</em>, <em class="sig-param">'kami'</em>, <em class="sig-param">'kamilah'</em>, <em class="sig-param">'kamu'</em>, <em class="sig-param">'kamulah'</em>, <em class="sig-param">'kan'</em>, <em class="sig-param">'kapan'</em>, <em class="sig-param">'kapankah'</em>, <em class="sig-param">'kapanpun'</em>, <em class="sig-param">'karena'</em>, <em class="sig-param">'karenanya'</em>, <em class="sig-param">'kasus'</em>, <em class="sig-param">'kata'</em>, <em class="sig-param">'katakan'</em>, <em class="sig-param">'katakanlah'</em>, <em class="sig-param">'katanya'</em>, <em class="sig-param">'ke'</em>, <em class="sig-param">'keadaan'</em>, <em class="sig-param">'kebetulan'</em>, <em class="sig-param">'kecil'</em>, <em class="sig-param">'kedua'</em>, <em class="sig-param">'keduanya'</em>, <em class="sig-param">'keinginan'</em>, <em class="sig-param">'kelamaan'</em>, <em class="sig-param">'kelihatan'</em>, <em class="sig-param">'kelihatannya'</em>, <em class="sig-param">'kelima'</em>, <em class="sig-param">'keluar'</em>, <em class="sig-param">'kembali'</em>, <em class="sig-param">'kemudian'</em>, <em class="sig-param">'kemungkinan'</em>, <em class="sig-param">'kemungkinannya'</em>, <em class="sig-param">'kenapa'</em>, <em class="sig-param">'kepada'</em>, <em class="sig-param">'kepadanya'</em>, <em class="sig-param">'kesampaian'</em>, <em class="sig-param">'keseluruhan'</em>, <em class="sig-param">'keseluruhannya'</em>, <em class="sig-param">'keterlaluan'</em>, <em class="sig-param">'ketika'</em>, <em class="sig-param">'khususnya'</em>, <em class="sig-param">'kini'</em>, <em class="sig-param">'kinilah'</em>, <em class="sig-param">'kira'</em>, <em class="sig-param">'kira-kira'</em>, <em class="sig-param">'kiranya'</em>, <em class="sig-param">'kita'</em>, <em class="sig-param">'kitalah'</em>, <em class="sig-param">'kok'</em>, <em class="sig-param">'kurang'</em>, <em class="sig-param">'lagi'</em>, <em class="sig-param">'lagian'</em>, <em class="sig-param">'lah'</em>, <em class="sig-param">'lain'</em>, <em class="sig-param">'lainnya'</em>, <em class="sig-param">'lalu'</em>, <em class="sig-param">'lama'</em>, <em class="sig-param">'lamanya'</em>, <em class="sig-param">'lanjut'</em>, <em class="sig-param">'lanjutnya'</em>, <em class="sig-param">'lebih'</em>, <em class="sig-param">'lewat'</em>, <em class="sig-param">'lima'</em>, <em class="sig-param">'luar'</em>, <em class="sig-param">'macam'</em>, <em class="sig-param">'maka'</em>, <em class="sig-param">'makanya'</em>, <em class="sig-param">'makin'</em>, <em class="sig-param">'malah'</em>, <em class="sig-param">'malahan'</em>, <em class="sig-param">'mampu'</em>, <em class="sig-param">'mampukah'</em>, <em class="sig-param">'mana'</em>, <em class="sig-param">'manakala'</em>, <em class="sig-param">'manalagi'</em>, <em class="sig-param">'masa'</em>, <em class="sig-param">'masalah'</em>, <em class="sig-param">'masalahnya'</em>, <em class="sig-param">'masih'</em>, <em class="sig-param">'masihkah'</em>, <em class="sig-param">'masing'</em>, <em class="sig-param">'masing-masing'</em>, <em class="sig-param">'mau'</em>, <em class="sig-param">'maupun'</em>, <em class="sig-param">'melainkan'</em>, <em class="sig-param">'melakukan'</em>, <em class="sig-param">'melalui'</em>, <em class="sig-param">'melihat'</em>, <em class="sig-param">'melihatnya'</em>, <em class="sig-param">'memang'</em>, <em class="sig-param">'memastikan'</em>, <em class="sig-param">'memberi'</em>, <em class="sig-param">'memberikan'</em>, <em class="sig-param">'membuat'</em>, <em class="sig-param">'memerlukan'</em>, <em class="sig-param">'memihak'</em>, <em class="sig-param">'meminta'</em>, <em class="sig-param">'memintakan'</em>, <em class="sig-param">'memisalkan'</em>, <em class="sig-param">'memperbuat'</em>, <em class="sig-param">'mempergunakan'</em>, <em class="sig-param">'memperkirakan'</em>, <em class="sig-param">'memperlihatkan'</em>, <em class="sig-param">'mempersiapkan'</em>, <em class="sig-param">'mempersoalkan'</em>, <em class="sig-param">'mempertanyakan'</em>, <em class="sig-param">'mempunyai'</em>, <em class="sig-param">'memulai'</em>, <em class="sig-param">'memungkinkan'</em>, <em class="sig-param">'menaiki'</em>, <em class="sig-param">'menambahkan'</em>, <em class="sig-param">'menandaskan'</em>, <em class="sig-param">'menanti'</em>, <em class="sig-param">'menanti-nanti'</em>, <em class="sig-param">'menantikan'</em>, <em class="sig-param">'menanya'</em>, <em class="sig-param">'menanyai'</em>, <em class="sig-param">'menanyakan'</em>, <em class="sig-param">'mendapat'</em>, <em class="sig-param">'mendapatkan'</em>, <em class="sig-param">'mendatang'</em>, <em class="sig-param">'mendatangi'</em>, <em class="sig-param">'mendatangkan'</em>, <em class="sig-param">'menegaskan'</em>, <em class="sig-param">'mengakhiri'</em>, <em class="sig-param">'mengapa'</em>, <em class="sig-param">'mengatakan'</em>, <em class="sig-param">'mengatakannya'</em>, <em class="sig-param">'mengenai'</em>, <em class="sig-param">'mengerjakan'</em>, <em class="sig-param">'mengetahui'</em>, <em class="sig-param">'menggunakan'</em>, <em class="sig-param">'menghendaki'</em>, <em class="sig-param">'mengibaratkan'</em>, <em class="sig-param">'mengibaratkannya'</em>, <em class="sig-param">'mengingat'</em>, <em class="sig-param">'mengingatkan'</em>, <em class="sig-param">'menginginkan'</em>, <em class="sig-param">'mengira'</em>, <em class="sig-param">'mengucapkan'</em>, <em class="sig-param">'mengucapkannya'</em>, <em class="sig-param">'mengungkapkan'</em>, <em class="sig-param">'menjadi'</em>, <em class="sig-param">'menjawab'</em>, <em class="sig-param">'menjelaskan'</em>, <em class="sig-param">'menuju'</em>, <em class="sig-param">'menunjuk'</em>, <em class="sig-param">'menunjuki'</em>, <em class="sig-param">'menunjukkan'</em>, <em class="sig-param">'menunjuknya'</em>, <em class="sig-param">'menurut'</em>, <em class="sig-param">'menuturkan'</em>, <em class="sig-param">'menyampaikan'</em>, <em class="sig-param">'menyangkut'</em>, <em class="sig-param">'menyatakan'</em>, <em class="sig-param">'menyebutkan'</em>, <em class="sig-param">'menyeluruh'</em>, <em class="sig-param">'menyiapkan'</em>, <em class="sig-param">'merasa'</em>, <em class="sig-param">'mereka'</em>, <em class="sig-param">'merekalah'</em>, <em class="sig-param">'merupakan'</em>, <em class="sig-param">'meski'</em>, <em class="sig-param">'meskipun'</em>, <em class="sig-param">'meyakini'</em>, <em class="sig-param">'meyakinkan'</em>, <em class="sig-param">'minta'</em>, <em class="sig-param">'mirip'</em>, <em class="sig-param">'misal'</em>, <em class="sig-param">'misalkan'</em>, <em class="sig-param">'misalnya'</em>, <em class="sig-param">'mula'</em>, <em class="sig-param">'mulai'</em>, <em class="sig-param">'mulailah'</em>, <em class="sig-param">'mulanya'</em>, <em class="sig-param">'mungkin'</em>, <em class="sig-param">'mungkinkah'</em>, <em class="sig-param">'nah'</em>, <em class="sig-param">'naik'</em>, <em class="sig-param">'namun'</em>, <em class="sig-param">'nanti'</em>, <em class="sig-param">'nantinya'</em>, <em class="sig-param">'nyaris'</em>, <em class="sig-param">'nyatanya'</em>, <em class="sig-param">'oleh'</em>, <em class="sig-param">'olehnya'</em>, <em class="sig-param">'pada'</em>, <em class="sig-param">'padahal'</em>, <em class="sig-param">'padanya'</em>, <em class="sig-param">'pak'</em>, <em class="sig-param">'paling'</em>, <em class="sig-param">'panjang'</em>, <em class="sig-param">'pantas'</em>, <em class="sig-param">'para'</em>, <em class="sig-param">'pasti'</em>, <em class="sig-param">'pastilah'</em>, <em class="sig-param">'penting'</em>, <em class="sig-param">'pentingnya'</em>, <em class="sig-param">'per'</em>, <em class="sig-param">'percuma'</em>, <em class="sig-param">'perlu'</em>, <em class="sig-param">'perlukah'</em>, <em class="sig-param">'perlunya'</em>, <em class="sig-param">'pernah'</em>, <em class="sig-param">'persoalan'</em>, <em class="sig-param">'pertama'</em>, <em class="sig-param">'pertama-tama'</em>, <em class="sig-param">'pertanyaan'</em>, <em class="sig-param">'pertanyakan'</em>, <em class="sig-param">'pihak'</em>, <em class="sig-param">'pihaknya'</em>, <em class="sig-param">'pukul'</em>, <em class="sig-param">'pula'</em>, <em class="sig-param">'pun'</em>, <em class="sig-param">'punya'</em>, <em class="sig-param">'rasa'</em>, <em class="sig-param">'rasanya'</em>, <em class="sig-param">'rata'</em>, <em class="sig-param">'rupanya'</em>, <em class="sig-param">'saat'</em>, <em class="sig-param">'saatnya'</em>, <em class="sig-param">'saja'</em>, <em class="sig-param">'sajalah'</em>, <em class="sig-param">'saling'</em>, <em class="sig-param">'sama'</em>, <em class="sig-param">'sama-sama'</em>, <em class="sig-param">'sambil'</em>, <em class="sig-param">'sampai'</em>, <em class="sig-param">'sampai-sampai'</em>, <em class="sig-param">'sampaikan'</em>, <em class="sig-param">'sana'</em>, <em class="sig-param">'sangat'</em>, <em class="sig-param">'sangatlah'</em>, <em class="sig-param">'satu'</em>, <em class="sig-param">'saya'</em>, <em class="sig-param">'sayalah'</em>, <em class="sig-param">'se'</em>, <em class="sig-param">'sebab'</em>, <em class="sig-param">'sebabnya'</em>, <em class="sig-param">'sebagai'</em>, <em class="sig-param">'sebagaimana'</em>, <em class="sig-param">'sebagainya'</em>, <em class="sig-param">'sebagian'</em>, <em class="sig-param">'sebaik'</em>, <em class="sig-param">'sebaik-baiknya'</em>, <em class="sig-param">'sebaiknya'</em>, <em class="sig-param">'sebaliknya'</em>, <em class="sig-param">'sebanyak'</em>, <em class="sig-param">'sebegini'</em>, <em class="sig-param">'sebegitu'</em>, <em class="sig-param">'sebelum'</em>, <em class="sig-param">'sebelumnya'</em>, <em class="sig-param">'sebenarnya'</em>, <em class="sig-param">'seberapa'</em>, <em class="sig-param">'sebesar'</em>, <em class="sig-param">'sebetulnya'</em>, <em class="sig-param">'sebisanya'</em>, <em class="sig-param">'sebuah'</em>, <em class="sig-param">'sebut'</em>, <em class="sig-param">'sebutlah'</em>, <em class="sig-param">'sebutnya'</em>, <em class="sig-param">'secara'</em>, <em class="sig-param">'secukupnya'</em>, <em class="sig-param">'sedang'</em>, <em class="sig-param">'sedangkan'</em>, <em class="sig-param">'sedemikian'</em>, <em class="sig-param">'sedikit'</em>, <em class="sig-param">'sedikitnya'</em>, <em class="sig-param">'seenaknya'</em>, <em class="sig-param">'segala'</em>, <em class="sig-param">'segalanya'</em>, <em class="sig-param">'segera'</em>, <em class="sig-param">'seharusnya'</em>, <em class="sig-param">'sehingga'</em>, <em class="sig-param">'seingat'</em>, <em class="sig-param">'sejak'</em>, <em class="sig-param">'sejauh'</em>, <em class="sig-param">'sejenak'</em>, <em class="sig-param">'sejumlah'</em>, <em class="sig-param">'sekadar'</em>, <em class="sig-param">'sekadarnya'</em>, <em class="sig-param">'sekali'</em>, <em class="sig-param">'sekali-kali'</em>, <em class="sig-param">'sekalian'</em>, <em class="sig-param">'sekaligus'</em>, <em class="sig-param">'sekalipun'</em>, <em class="sig-param">'sekarang'</em>, <em class="sig-param">'sekecil'</em>, <em class="sig-param">'seketika'</em>, <em class="sig-param">'sekiranya'</em>, <em class="sig-param">'sekitar'</em>, <em class="sig-param">'sekitarnya'</em>, <em class="sig-param">'sekurang-kurangnya'</em>, <em class="sig-param">'sekurangnya'</em>, <em class="sig-param">'sela'</em>, <em class="sig-param">'selain'</em>, <em class="sig-param">'selaku'</em>, <em class="sig-param">'selalu'</em>, <em class="sig-param">'selama'</em>, <em class="sig-param">'selama-lamanya'</em>, <em class="sig-param">'selamanya'</em>, <em class="sig-param">'selanjutnya'</em>, <em class="sig-param">'seluruh'</em>, <em class="sig-param">'seluruhnya'</em>, <em class="sig-param">'semacam'</em>, <em class="sig-param">'semakin'</em>, <em class="sig-param">'semampu'</em>, <em class="sig-param">'semampunya'</em>, <em class="sig-param">'semasa'</em>, <em class="sig-param">'semasih'</em>, <em class="sig-param">'semata'</em>, <em class="sig-param">'semata-mata'</em>, <em class="sig-param">'semaunya'</em>, <em class="sig-param">'sementara'</em>, <em class="sig-param">'semisal'</em>, <em class="sig-param">'semisalnya'</em>, <em class="sig-param">'sempat'</em>, <em class="sig-param">'semua'</em>, <em class="sig-param">'semuanya'</em>, <em class="sig-param">'semula'</em>, <em class="sig-param">'sendiri'</em>, <em class="sig-param">'sendirian'</em>, <em class="sig-param">'sendirinya'</em>, <em class="sig-param">'seolah'</em>, <em class="sig-param">'seolah-olah'</em>, <em class="sig-param">'seorang'</em>, <em class="sig-param">'sepanjang'</em>, <em class="sig-param">'sepantasnya'</em>, <em class="sig-param">'sepantasnyalah'</em>, <em class="sig-param">'seperlunya'</em>, <em class="sig-param">'seperti'</em>, <em class="sig-param">'sepertinya'</em>, <em class="sig-param">'sepihak'</em>, <em class="sig-param">'sering'</em>, <em class="sig-param">'seringnya'</em>, <em class="sig-param">'serta'</em>, <em class="sig-param">'serupa'</em>, <em class="sig-param">'sesaat'</em>, <em class="sig-param">'sesama'</em>, <em class="sig-param">'sesampai'</em>, <em class="sig-param">'sesegera'</em>, <em class="sig-param">'sesekali'</em>, <em class="sig-param">'seseorang'</em>, <em class="sig-param">'sesuatu'</em>, <em class="sig-param">'sesuatunya'</em>, <em class="sig-param">'sesudah'</em>, <em class="sig-param">'sesudahnya'</em>, <em class="sig-param">'setelah'</em>, <em class="sig-param">'setempat'</em>, <em class="sig-param">'setengah'</em>, <em class="sig-param">'seterusnya'</em>, <em class="sig-param">'setiap'</em>, <em class="sig-param">'setiba'</em>, <em class="sig-param">'setibanya'</em>, <em class="sig-param">'setidak-tidaknya'</em>, <em class="sig-param">'setidaknya'</em>, <em class="sig-param">'setinggi'</em>, <em class="sig-param">'seusai'</em>, <em class="sig-param">'sewaktu'</em>, <em class="sig-param">'siap'</em>, <em class="sig-param">'siapa'</em>, <em class="sig-param">'siapakah'</em>, <em class="sig-param">'siapapun'</em>, <em class="sig-param">'sini'</em>, <em class="sig-param">'sinilah'</em>, <em class="sig-param">'soal'</em>, <em class="sig-param">'soalnya'</em>, <em class="sig-param">'suatu'</em>, <em class="sig-param">'sudah'</em>, <em class="sig-param">'sudahkah'</em>, <em class="sig-param">'sudahlah'</em>, <em class="sig-param">'supaya'</em>, <em class="sig-param">'tadi'</em>, <em class="sig-param">'tadinya'</em>, <em class="sig-param">'tahu'</em>, <em class="sig-param">'tahun'</em>, <em class="sig-param">'tak'</em>, <em class="sig-param">'tambah'</em>, <em class="sig-param">'tambahnya'</em>, <em class="sig-param">'tampak'</em>, <em class="sig-param">'tampaknya'</em>, <em class="sig-param">'tandas'</em>, <em class="sig-param">'tandasnya'</em>, <em class="sig-param">'tanpa'</em>, <em class="sig-param">'tanya'</em>, <em class="sig-param">'tanyakan'</em>, <em class="sig-param">'tanyanya'</em>, <em class="sig-param">'tapi'</em>, <em class="sig-param">'tegas'</em>, <em class="sig-param">'tegasnya'</em>, <em class="sig-param">'telah'</em>, <em class="sig-param">'tempat'</em>, <em class="sig-param">'tengah'</em>, <em class="sig-param">'tentang'</em>, <em class="sig-param">'tentu'</em>, <em class="sig-param">'tentulah'</em>, <em class="sig-param">'tentunya'</em>, <em class="sig-param">'tepat'</em>, <em class="sig-param">'terakhir'</em>, <em class="sig-param">'terasa'</em>, <em class="sig-param">'terbanyak'</em>, <em class="sig-param">'terdahulu'</em>, <em class="sig-param">'terdapat'</em>, <em class="sig-param">'terdiri'</em>, <em class="sig-param">'terhadap'</em>, <em class="sig-param">'terhadapnya'</em>, <em class="sig-param">'teringat'</em>, <em class="sig-param">'teringat-ingat'</em>, <em class="sig-param">'terjadi'</em>, <em class="sig-param">'terjadilah'</em>, <em class="sig-param">'terjadinya'</em>, <em class="sig-param">'terkira'</em>, <em class="sig-param">'terlalu'</em>, <em class="sig-param">'terlebih'</em>, <em class="sig-param">'terlihat'</em>, <em class="sig-param">'termasuk'</em>, <em class="sig-param">'ternyata'</em>, <em class="sig-param">'tersampaikan'</em>, <em class="sig-param">'tersebut'</em>, <em class="sig-param">'tersebutlah'</em>, <em class="sig-param">'tertentu'</em>, <em class="sig-param">'tertuju'</em>, <em class="sig-param">'terus'</em>, <em class="sig-param">'terutama'</em>, <em class="sig-param">'tetap'</em>, <em class="sig-param">'tetapi'</em>, <em class="sig-param">'tiap'</em>, <em class="sig-param">'tiba'</em>, <em class="sig-param">'tiba-tiba'</em>, <em class="sig-param">'tidak'</em>, <em class="sig-param">'tidakkah'</em>, <em class="sig-param">'tidaklah'</em>, <em class="sig-param">'tiga'</em>, <em class="sig-param">'tinggi'</em>, <em class="sig-param">'toh'</em>, <em class="sig-param">'tunjuk'</em>, <em class="sig-param">'turut'</em>, <em class="sig-param">'tutur'</em>, <em class="sig-param">'tuturnya'</em>, <em class="sig-param">'ucap'</em>, <em class="sig-param">'ucapnya'</em>, <em class="sig-param">'ujar'</em>, <em class="sig-param">'ujarnya'</em>, <em class="sig-param">'umum'</em>, <em class="sig-param">'umumnya'</em>, <em class="sig-param">'ungkap'</em>, <em class="sig-param">'ungkapnya'</em>, <em class="sig-param">'untuk'</em>, <em class="sig-param">'usah'</em>, <em class="sig-param">'usai'</em>, <em class="sig-param">'waduh'</em>, <em class="sig-param">'wah'</em>, <em class="sig-param">'wahai'</em>, <em class="sig-param">'waktu'</em>, <em class="sig-param">'waktunya'</em>, <em class="sig-param">'walau'</em>, <em class="sig-param">'walaupun'</em>, <em class="sig-param">'wong'</em>, <em class="sig-param">'yaitu'</em>, <em class="sig-param">'yakin'</em>, <em class="sig-param">'yakni'</em>, <em class="sig-param">'yang'}</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/preProc_misc.html#removeStopword"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#preProc_misc.removeStopword" title="Permalink to this definition">¶</a></dt>
+<dd><p>membuang kata2 yang terdapat pada stopwords id</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>text</strong> (<em>list of string</em>) – list kata yang akan dibuang dari daftar stopwords yang ada</p></li>
+<li><p><strong>stop_words</strong> (<em>dataframe pandas</em><em>, </em><em>optional</em>) – set of stopwords from NLTK indonesian, defaults to stop_words initiate in beginning</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>list of string after removing stop words</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>list</p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="spellchecker.html" class="btn btn-neutral float-right" title="spellchecker module" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="cmnRmv.html" class="btn btn-neutral float-left" title="cmnRmv module" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Yurio Windiatmoko
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
